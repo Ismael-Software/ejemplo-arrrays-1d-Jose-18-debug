@@ -9,3 +9,9 @@ while (pos < n):
     ac = ac + vector1[pos]
     pos = pos + 1
 print("La sumatoria es: ", ac)
+coc = ac/2
+res = coc*2
+if (res == ac):
+    print("Es par")
+else:
+    print("Es impar")
