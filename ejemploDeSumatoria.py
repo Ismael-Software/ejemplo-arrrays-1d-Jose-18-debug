@@ -1,5 +1,8 @@
 n = int(input("¿Cuántos valores vas a calcular?: "))
-vector1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+vector1 = []
+for i in range (n):
+    valores = int(input("Ingresa los valores del vector: "))
+    vector1.append(valores)
 pos = 0
 ac = 0
 while (pos < n):
