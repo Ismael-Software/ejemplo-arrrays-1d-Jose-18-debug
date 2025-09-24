@@ -15,3 +15,4 @@ if (res == ac):
     print("Es par")
 else:
     print("Es impar")
+print("Si el número impar y dice par, es impar :)")
