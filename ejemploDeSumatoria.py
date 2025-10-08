@@ -9,10 +9,8 @@ while (pos < n):
     ac = ac + vector1[pos]
     pos = pos + 1
 print("La sumatoria es: ", ac)
-coc = ac/2
-res = coc*2
-if (res == ac):
+
+if (ac%2 == 0):
     print("Es par")
 else:
     print("Es impar")
-print("Si el número impar y dice par, es impar :)")
