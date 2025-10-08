@@ -14,3 +14,6 @@ if (ac%2 == 0):
     print("Es par")
 else:
     print("Es impar")
+
+mayor = max(vector1)
+print("El número más grande del vector es: ", mayor)
